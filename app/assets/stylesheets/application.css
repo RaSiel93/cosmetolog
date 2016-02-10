@@ -10,9 +10,14 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require wk-styles-4e2a91ec
+ *= require landing
+ *= require style
+ *= require home
+ *= require carouselck
  *= require_self
  */
+
 
 #carouselck_wrap_96 .carouselck_pag_ul li img {width:100px;height:75px;}
 #carouselck_wrap_96 .carouselck_caption > div {
