@@ -1,5 +1,5 @@
 jQuery.ias({
-  container :  ".carouselck_images",
+  container : ".carouselck_images",
   item: "img",
   pagination: ".pagination",
   next: ".carouselck_next",

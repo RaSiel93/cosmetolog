@@ -7,10 +7,6 @@
 	z-index: 1
 }
 
-/********************************************** POISK*/
-
-.moduletable_form {margin-top: 40px;}
-
 /**************************** HEADER_ADDESS*/
 .header_address {
 	text-align: right;
@@ -62,9 +58,9 @@
 }
 
 .moduletable_uslugi li.uslugi_li1,
-.moduletable_uslugi li.uslugi_li2 {margin-left: 877px;}
+.moduletable_uslugi li.uslugi_li2 {margin-left: 856px}
 
-.moduletable_uslugi li.uslugi_li3 {margin-left: 585px}
+.moduletable_uslugi li.uslugi_li3 {margin-left: 570px}
 
 .moduletable_uslugi li.col-md-3 {
 	margin-top: 15px;
@@ -82,8 +78,6 @@
 	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
-
-
 }
 
 .moduletable_uslugi li.col-md-3 a:hover::after {opacity: 1}

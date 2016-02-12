@@ -318,10 +318,7 @@ p >  a:visited  {    color: #B400A6;}
     overflow: hidden;
     z-index: -1;
 }
-.uk-position-relative .uk-slideshow {
-    height: 980px!important;
-    min-width: 1170px;
-}
+
 /************************************TOP*/
 
 .modulefone_sliders {
@@ -331,8 +328,6 @@ p >  a:visited  {    color: #B400A6;}
     width: 100%;
     min-width: 1170px;
     height: 210px;
-    z-index: -1;
-    overflow: hidden;
 }
 #top .center_block {
     overflow: inherit;
@@ -661,9 +656,6 @@ p.contact_tel a {
 }
 .moduletable {
     margin: 0 0 15px
-}
-.moduletable img {
-    margin-bottom: -6px;
 }
 .moduletable h3 {
     background-color: #444444;
