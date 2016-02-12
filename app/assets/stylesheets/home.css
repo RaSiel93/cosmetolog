@@ -41,7 +41,7 @@
 	margin-bottom: 60px;
 }
 
-.modulefone_sliders { height: 920px;}
+.modulefone_sliders img { height: 920px !important; }
 
 /************************************ USLUGI*/
 .moduletable_uslugi,
