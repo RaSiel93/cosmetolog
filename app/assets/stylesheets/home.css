@@ -22,7 +22,7 @@
 }
 
 .header_address .a_maps {text-align: left;}
-.header_address .a_mail {border-bottom: 1px solid #fff;}
+.header_address .a_mail {border-bottom: 1px solid #004EA0;}
 
 .header_address .a_maps::before,
 .header_address .a_tel::before,
@@ -58,9 +58,9 @@
 }
 
 .moduletable_uslugi li.uslugi_li1,
-.moduletable_uslugi li.uslugi_li2 {margin-left: 856px}
+.moduletable_uslugi li.uslugi_li2 {margin-right: 856px}
 
-.moduletable_uslugi li.uslugi_li3 {margin-left: 570px}
+.moduletable_uslugi li.uslugi_li4 {margin-right: 570px}
 
 .moduletable_uslugi li.col-md-3 {
 	margin-top: 15px;
@@ -101,12 +101,12 @@
 	position: absolute;
 	top: 75px;
 	left: 50%;
-	margin-left: -350px;
+	margin-left: -220px;
 }
 
 
 .moduletable_gsk h2 {
-	font-size: 65px;
+	font-size: 75px;
 	text-align: center;
 	line-height: 80px;
 	margin-bottom: 20px;
