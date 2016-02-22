@@ -65,39 +65,14 @@
     background: asset-url('icon_mail.png') center no-repeat
 
 .footer_bottom
-  height: 100px
+  height: 64px
   background-color: rgba(66, 137, 210, 0.7)
-  a
-    text-decoration: none
-    &.sitename
-      text-align: left
-      margin-top: 24px
+  .sitename
+    text-align: center
+    margin-top: 14px
+    p
       color: #fff
-  .social
-    p.vss
-      color: #fff
-      font-size: 14px
-    margin-top: 30px
-    span.ya
-      font: 30px 'ghaBCEdl'
-      margin-right: 15px
-    .social_a
-      height: 20px
-      width: 30px
-      display: inline-block
-      color: #fff
-      &:hover::before
-        color: #969696
-        font-size: 18px
-      &::before
-        font-family: 'fontello'
-        font-size: 20px
-    .insta::before
-      content: ""
-    .ok::before
-      content: ""
-    .vk::before
-      content: ""
+      font-size: 13px
 
 .moduletablecontact
   position: absolute
@@ -171,3 +146,7 @@ img, .img-polaroid
 
 #map
   height: 600px
+
+.footer_address
+  .a_maps:hover::before, .a_tel:hover::before, .a_mail:hover::before
+    border-color: #fff

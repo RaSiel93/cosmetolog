@@ -94,7 +94,7 @@ p >  a:visited  {    color: #B400A6;}
     text-align: left;
     min-width: 1170px;
 }
-.center_block {
+.central-block {
     position: relative;
     height: 100%;
     margin: 0 auto;
@@ -274,7 +274,12 @@ p >  a:visited  {    color: #B400A6;}
 .content {
     position: relative;
 }
-#main_section {}
+#main_section {
+    margin-top: 460px;
+    padding-top: 40px;
+    background-color: #75A6D6;
+    color: #fff;
+}
 #left {
     left: -50%;
 }

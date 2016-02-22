@@ -12,6 +12,7 @@ gem 'slim'
 gem 'uikit-rails'
 gem 'gmaps4rails'
 gem 'underscore-rails'
+gem 'font-awesome-rails', '~> 4.2.0.0'
 
 group :development, :test do
   gem 'byebug'

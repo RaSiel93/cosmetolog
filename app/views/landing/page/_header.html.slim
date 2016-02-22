@@ -1,13 +1,11 @@
-header#header
-  .center_block
+header
+  .central-block
     .row
       address.header_address
-        a.a_maps href="https://goo.gl/maps/hoJJbp7v8xx" rel="nofollow" target="_blank"
+        = link_to '+ 375 (29) 673-23-20', 'tel:+375296732320', class: 'phone'
+        = link_to 'https://goo.gl/maps/hoJJbp7v8xx', class: 'map', rel: 'nofollow', target: '_blank' do
           span
             | Минск
             br
             | ул. Притыцкого, 106
-        a.a_tel href="tel:+375296732320"
-          span + 375 (29) 673-23-20
-        a.a_mail href="mailto:alisa19232@rambler.ru"
-          span alisa19232@rambler.ru
+        = link_to 'alisa19232@rambler.ru', 'mailto:alisa19232@rambler.ru', class: 'mail'
