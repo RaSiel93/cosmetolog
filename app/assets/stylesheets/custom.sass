@@ -1,52 +1,59 @@
-#carouselck_wrap_96
-  .carouselck_pag_ul li img
-    width: 100px
-    height: 75px
-  .carouselck_caption > div
-    padding-top: 0px
-    padding-right: 0px
-    padding-bottom: 0px
-    padding-left: 0px
-    margin-top: 0px
-    margin-right: 0px
-    margin-bottom: 0px
-    margin-left: 0px
-    -moz-border-radius: 5px 5px 5px 5px
-    -webkit-border-radius: 5px 5px 5px 5px
-    border-radius: 5px 5px 5px 5px
-    > div
-      font-size: 2em
-    div.carouselck_caption_desc
-      font-size: 1em
-  .carouselck_images > img
-    -moz-box-shadow: 0px 0px 5px 0px #000
-    -webkit-box-shadow: 0px 0px 5px 0px #000
-    box-shadow: 0px 0px 5px 0px #000
+body
+  background-color: #75A6D6
 
-div.ias_trigger
-  text-align: center
-  margin: 15px 0
-  a
-    border: 1px solid #ccc
-    padding: 5px
-    border-radius: 5px
-    background: #f1f1f1
+#map
+  height: 600px
 
-.pagination
-  display: none !important
+.central-block
+  position: relative
+  height: 100%
+  margin: 0 auto
+  width: 50%
+  padding: 0 15px
+  overflow: hidden
 
-.gm-style
-  .gm-style-cc
-    span, a
-      font-size: 10px
-  .gm-style-mtc div
-    font-size: 10px
-  font-family: Roboto,Arial,sans-serif
-  font-size: 11px
-  font-weight: 400
-  text-decoration: none
-  img
-    max-width: none
+#section
+  margin-top: 510px
+  margin-bottom: 60px
+  padding-top: 40px
+  color: #fff
+  h1
+    color: #fff
+    text-align: center
+  .image
+    img
+      float: right
+      height: 400px
+      width: 300px
+
+#top
+  height: auto
+  margin-top: 120px
+  margin-bottom: 60px
+  .central-block
+    overflow: inherit
+    .person
+      margin: 0 0 0 -180px
+      padding: 30px
+      width: 50%
+      background-color: $cornflower-color
+      border-radius: 10px
+      h2
+        margin: 0
+        color: #fff
+        font-family: 'Vivaldi'
+        font-size: 75px
+        font-weight: normal
+        text-align: center
+        line-height: 80px
+        cursor: pointer
+      p
+        margin: 0 10px
+        color: #fff
+        font-size: 24px
+        font-family: 'HelveticaNeueCyrlight'
+        font-style: italic
+        text-align: right
 
 @media print
   .gm-style .gmnoprint, .gmnoprint
@@ -55,11 +62,3 @@ div.ias_trigger
 @media screen
   .gm-style .gmnoscreen, .gmnoscreen
     display: none
-
-.work-images
-  text-align: left
-
-.work-images img
-  max-width: 140px
-  max-height: 140px
-  margin-right: 25px

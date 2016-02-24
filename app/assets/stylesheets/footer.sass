@@ -1,152 +1,70 @@
-#footer
+footer
   margin: 0
   padding: 0
   width: 100%
   min-width: 1170px
   font-family: "HelveticaNeueCyrLight"
   background: linear-gradient(to right, #3F7090 40%, #3F7090, #C8DfF8, #C8DfF8 40%)
-  .moduletable
-    margin: 0
-
-.footertopbottom
-  background: asset-url('bgfooter2.jpg') 50% 0 no-repeat
-  .footer_top .moduletable
+  .general
+    background: asset-url('bgfooter2.jpg') 50% 0 no-repeat
     position: relative
     overflow: hidden
-
-.footer_top
-  height: 465px
-
-#footer .zagh3
-  background-color: inherit
-  color: #004EA0
-  font-size: 36px
-  font-weight: normal
-  text-align: left
-  margin-top: 30px
-  padding: 0
-
-.footer_address
-  text-align: left
-  font-family: 'HelveticaNeueCyrlight'
-  font-size: 14px
-  overflow: hidden
-  .a_maps, .a_tel, .a_mail
-    font-style: normal
-    color: #004EA0
-    margin: 40px 0
-    display: block
-    text-decoration: none
-    position: relative
-    vertical-align: middle
-  .a_maps
-    line-height: 1.1
-    margin-top: 0
-  .a_tel
-    font-size: 34px
-    margin-bottom: 30px
-  .a_mail span
-    border-bottom: 1px solid #004EA0
-    line-height: 2.5
-  .a_maps::before, .a_tel::before, .a_mail::before
-    content: ''
-    display: inline-block
-    height: 36px
-    width: 36px
-    border: 1px solid #004EA0
-    float: left
-    margin-right: 10px
-  .a_maps::before
-    background: asset-url('icon_maps.png') center no-repeat
-    top: 0
-  .a_tel::before
-    background: asset-url('icon_tel.png') center no-repeat
-  .a_mail::before
-    background: asset-url('icon_mail.png') center no-repeat
-
-.footer_bottom
-  height: 64px
-  background-color: rgba(66, 137, 210, 0.7)
-  .sitename
-    text-align: center
-    margin-top: 14px
-    p
-      color: #fff
-      font-size: 13px
-
-.moduletablecontact
-  position: absolute
-  right: 0
-  margin-top: 35px
-  font-family: 'HelveticaNeueCyrLight'
-  div#wrap
-    position: relative
-    height: 100%
-  .FlowupLabels .fl_wrap
-    float: left
-    width: 165px
-    margin: 0 15px
-  #formContainer .FlowupLabels
-    .fl_input
-      border-radius: 0
-      border: none
-      border-bottom: 1px solid #6f3971
-      color: #fff
-    .fl_label
-      color: #fff
-      position: absolute
-      top: 0
-      left: 0
-      transform-origin: center
-    .fl_wrap.focused .fl_label
-      color: #8c8c8c
-  #formBody101 .rf_submit
-    background: #6f3971
-    border-radius: 0
-    height: 40px
-    width: 165px
-    text-transform: uppercase
-    font-size: 13px
-    position: relative
-    top: 5px
-    &:hover
-      background: #b400a6
-  #formContainer span.error p
-    position: absolute
-    top: 70px
-    left: 0
-    margin: 0
-    &[for="name"]
-      left: 0px
-      width: 180px
-    &[for="email"]
-      left: 130px
-
-img, .img-polaroid
-  max-width: 100%
-  height: auto
-
-.errorPage
-  text-align: center
-  text-transform: uppercase
-  padding: 70px 0
-  h1
-    color: red
-    font-size: 40px
-    font-weight: bold
-    margin: 0 0 30px
-  h2
-    color: #666
-    font-size: 20px
-
-#xmap ul
-  margin: 10px 0
-  padding-left: 40px
-  li
-
-#map
-  height: 600px
-
-.footer_address
-  .a_maps:hover::before, .a_tel:hover::before, .a_mail:hover::before
-    border-color: #fff
+    .top
+      height: 465px
+      width: 900px
+      margin: 0 auto
+      address
+        float: right
+        font-family: 'HelveticaNeueCyrlight'
+        font-size: 14px
+        a
+          color: #fff
+        h3
+          color: #fff
+          background-color: inherit
+          font-size: 36px
+          font-weight: normal
+          text-align: left
+          margin-top: 30px
+          padding: 0
+        .map, .phone, .mail
+          font-style: normal
+          margin: 40px 0
+          display: block
+          text-decoration: none
+          position: relative
+          vertical-align: middle
+          &:before
+            content: ''
+            display: inline-block
+            height: 36px
+            width: 36px
+            border: 1px solid #004EA0
+            float: left
+            margin-right: 10px
+          &:hover::before
+            border-color: #ccc
+        .map
+          line-height: 1.1
+          margin-top: 0
+          &:before
+            background: asset-url('icon_maps.png') center no-repeat
+            top: 0
+        .phone
+          font-size: 34px
+          margin-bottom: 30px
+          &:before
+            background: asset-url('icon_tel.png') center no-repeat
+        .mail
+          line-height: 2.5
+          &:before
+            background: asset-url('icon_mail.png') center no-repeat
+    .bottom
+      height: 64px
+      background-color: rgba(66, 137, 210, 0.7)
+      .sitename
+        text-align: center
+        margin-top: 14px
+        p
+          color: #fff
+          font-size: 13px
