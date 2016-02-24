@@ -2,11 +2,10 @@ footer
   margin: 0
   padding: 0
   width: 100%
-  min-width: 1170px
   font-family: "HelveticaNeueCyrLight"
-  background: linear-gradient(to right, #3F7090 40%, #3F7090, #C8DfF8, #C8DfF8 40%)
+  background: linear-gradient(to right, #3F7090, #C8DfF8)
   .general
-    background: asset-url('bgfooter2.jpg') 50% 0 no-repeat
+    background: asset-url('footer.jpg') 50% 0 no-repeat
     position: relative
     overflow: hidden
     .top
@@ -29,7 +28,7 @@ footer
           padding: 0
         .map, .phone, .mail
           font-style: normal
-          margin: 40px 0
+          margin-bottom: 40px
           display: block
           text-decoration: none
           position: relative
@@ -39,26 +38,25 @@ footer
             display: inline-block
             height: 36px
             width: 36px
-            border: 1px solid #004EA0
+            border: 1px solid #fff
             float: left
             margin-right: 10px
+            border-radius: 50%
           &:hover::before
-            border-color: #ccc
+            border-color: $link-hover-color
         .map
-          line-height: 1.1
-          margin-top: 0
           &:before
-            background: asset-url('icon_maps.png') center no-repeat
+            background: asset-url('map.png') center no-repeat
             top: 0
         .phone
           font-size: 34px
-          margin-bottom: 30px
+          line-height: normal
           &:before
-            background: asset-url('icon_tel.png') center no-repeat
+            background: asset-url('phone.png') center no-repeat
         .mail
-          line-height: 2.5
+          line-height: 36px
           &:before
-            background: asset-url('icon_mail.png') center no-repeat
+            background: asset-url('mail.png') center no-repeat
     .bottom
       height: 64px
       background-color: rgba(66, 137, 210, 0.7)

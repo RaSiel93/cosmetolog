@@ -1,7 +1,7 @@
 .slideshow
   ul.uk-slideshow data-uk-slideshow="{duration: 1000, autoplay: true, pauseOnHover: false, kenburns: '100s'}"
-    li = image_tag '4.jpg'
-    li = image_tag '4.jpg'
+    li = image_tag 'slideshow/1.jpg'
+    li = image_tag 'slideshow/2.jpg'
 
 header
   .central-block
@@ -25,24 +25,29 @@ header
 
 #section role="main"
   .central-block
-      article
-        h1 Врач - косметолог Павловская Екатерина
-        .image
-          img alt=("Косметолог Павловская Екатерина") src="/assets/homeimg.jpg" title=("Косметолог Павловская Людмила Петровна") /
-        p
-          | Косметолог с медицинским образованием и большим опытом работы предлагает весь спектр косметических услуг:
-        ul
-          li Гигиеническая чистка лица и спины
-          li Различные виды массажа
-          li Пилинги
-          li Spa-процедуры по лицу и телу (питание, увлажнение, лифтинг)
-          li Депиляция всех участков тела
-          li Прокол ушей
-          li Безиньекционная мезотерапия
-          li Подбор индивидуальных программ по уходу за кожей
-        p
-          | Работаю на косметике Christina, Ericsson Laboratoire, Innosearch, Dermaheal.
-          | Косметика сертифицирована, хорошего качества.
+    h1 Врач - косметолог Павловская&nbsp;Екатерина
+    img alt=("Косметолог Павловская Екатерина") src="/assets/homeimg.jpg" title=("Косметолог Павловская Екатерина") /
+    p
+      | Косметолог с медицинским образованием и большим опытом работы предлагает весь спектр косметических&nbsp;услуг:
+    ul
+      li Гигиеническая чистка лица и&nbsp;спины
+      li Различные виды&nbsp;массажа
+      li Пилинги
+      li Spa-процедуры по лицу и телу (питание,&nbsp;увлажнение,&nbsp;лифтинг)
+      li Депиляция всех участков&nbsp;тела
+      li Прокол&nbsp;ушей
+      li Безиньекционная&nbsp;мезотерапия
+      li Подбор индивидуальных программ по уходу за&nbsp;кожей
+    p
+      ' Для процедур используется сертифицированая косметика хорошего качества:
+      = link_to 'Christina', 'http://christinacosmetics.ru/'
+      ',
+      = link_to 'Ericson Laboratoire', 'http://www.ericsonlab.ru/'
+      ',
+      = link_to 'Innosearch', 'http://innosearch.by/'
+      ',
+      = link_to 'Dermaheal', 'http://cosmetic-sl.ru/catalog/dermakhil/'
+      |.
 #map
 footer
   .general
@@ -61,6 +66,6 @@ footer
       .central-block
         .sitename
           p
-            | Copyright © 2015
+            | Copyright © 2016
             br
-            | Врач-косметолог Павловская Екатерина
+            | Врач-косметолог Павловская&nbsp;Екатерина

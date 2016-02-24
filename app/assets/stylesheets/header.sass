@@ -36,15 +36,16 @@ header
         border: 1px solid #fff
         border-radius: 50%
       &:hover::before
-        border-color: #ccc
+        border-color: $link-hover-color
+        color: $link-hover-color
     .map
       text-align: left
       &:before
         margin-top: 10px
-        background: asset-url('icon_maps.png') center no-repeat
+        background: asset-url('map.png') center no-repeat
     .phone
       &:before
-        background: asset-url('icon_tel.png') center no-repeat
+        background: asset-url('phone.png') center no-repeat
     .mail
       &:before
-        background: asset-url('icon_mail.png') center no-repeat
+        background: asset-url('mail.png') center no-repeat
