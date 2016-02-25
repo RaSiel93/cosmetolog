@@ -4,27 +4,25 @@
     li = image_tag 'slideshow/2.jpg'
 
 header
-  .central-block
-    address
-      = link_to '+ 375 (29) 673-23-20', 'tel:+375296732320', class: 'phone'
-      = link_to 'https://goo.gl/maps/hoJJbp7v8xx', class: 'map', rel: 'nofollow', target: '_blank' do
-        span
-          | Минск
-          br
-          | ул. Притыцкого, 106
-      = link_to 'alisa19232@rambler.ru', 'mailto:alisa19232@rambler.ru', class: 'mail'
-
-#top
-  .central-block
-    .person
-      h2
-        | Павловская
+  .address
+    = link_to '+ 375 (29) 673-23-20', 'tel:+375296732320', class: 'phone'
+    = link_to 'https://goo.gl/maps/hoJJbp7v8xx', class: 'map', rel: 'nofollow', target: '_blank' do
+      span
+        | Минск
         br
-        | Екатерина
-      p Врач-косметолог
+        | ул. Притыцкого, 106
+    = link_to 'alisa19232@rambler.ru', 'mailto:alisa19232@rambler.ru', class: 'mail'
 
-#section role="main"
-  .central-block
+.person
+  .name
+    h2
+      | Павловская
+      br
+      | Екатерина
+    p Врач-косметолог
+
+section role="main"
+  .row
     h1 Врач - косметолог Павловская&nbsp;Екатерина
     = image_tag '', alt: 'Косметолог Павловская Екатерина', title: 'Косметолог Павловская Екатерина'
     p
@@ -48,24 +46,24 @@ header
       ',
       = link_to 'Dermaheal', 'http://cosmetic-sl.ru/catalog/dermakhil/'
       |.
-#map
+#map style='height: 600px'
 footer
   .general
     .top
-      address
-        h3 Контакты
-        a.map href="https://goo.gl/maps/AZP3T6MTUcu" rel="nofollow" target="_blank"
-          | Минск
-          br
-          | ул. Притыцкого, 106
-        a.phone href="tel:+375296732320"
-          | + 375 (29) 673-23-20
-        a.mail href="mailto:alisa19232@rambler.ru"
-          | alisa19232@rambler.ru
-    .bottom
-      .central-block
-        .sitename
-          p
-            | Copyright © 2016
+      .row
+        address
+          h3 Контакты
+          a.map href="https://goo.gl/maps/AZP3T6MTUcu" rel="nofollow" target="_blank"
+            | Минск
             br
-            | Врач-косметолог Павловская&nbsp;Екатерина
+            | ул. Притыцкого, 106
+          a.phone href="tel:+375296732320"
+            | + 375 (29) 673-23-20
+          a.mail href="mailto:alisa19232@rambler.ru"
+            | alisa19232@rambler.ru
+    .bottom
+      .sitename
+        p
+          | Copyright © 2016
+          br
+          | Врач-косметолог Павловская&nbsp;Екатерина

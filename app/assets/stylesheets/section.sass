@@ -1,0 +1,37 @@
+body
+  background-color: #75A6D6
+
+.row
+  margin: 20px
+
+section
+  margin: 856px auto 0
+  padding: 40px 0
+  color: #fff
+  width: 1000px
+  h1
+    color: #fff
+    text-align: center
+    margin-bottom: 30px
+  p
+    font-size: 16px
+    line-height: 24px
+  a
+    color: #fff
+    font-weight: bold
+    text-decoration: underline
+    &:hover
+      color: $link-hover-color
+  ul
+    li
+      font-size: 16px
+      line-height: 30px
+  img
+    margin: 0 50px
+    float: right
+    height: 400px
+    width: 300px
+
+@media all and (max-width: 1000px)
+  section
+    width: $width-default
