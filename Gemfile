@@ -14,12 +14,15 @@ gem 'gmaps4rails'
 gem 'underscore-rails'
 gem 'font-awesome-rails', '~> 4.2.0.0'
 
-group :development, :test do
-  gem 'byebug'
-end
-
 group :development do
+  gem 'byebug'
+  gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rails', '~> 1.1'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+end
+
+group :production do
+  gem 'therubyracer'
 end
 
