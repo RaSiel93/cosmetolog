@@ -7,8 +7,8 @@ $ ->
     internal: id: 'map'
   }, ->
     markers = handler.addMarkers([ {
-      'lat': 53.9080613
-      'lng': 27.4413269
+      'lat': 53.9070613
+      'lng': 27.4376569
     } ])
     handler.bounds.extendWith markers
     handler.fitMapToBounds()
