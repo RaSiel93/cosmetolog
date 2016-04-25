@@ -2,7 +2,9 @@ $ ->
   handler = Gmaps.build('Google')
   handler.buildMap {
     provider: {
-      disableDefaultUI: true
+      disableDefaultUI: true,
+      scrollwheel: false,
+      zoomControl: true
     }
     internal: id: 'map'
   }, ->
