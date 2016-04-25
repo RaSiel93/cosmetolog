@@ -5,7 +5,10 @@
 
 header
   .address
-    = link_to '+ 375 (29) 673-23-20', 'tel:+375296732320', class: 'phone'
+    = link_to 'tel:+375296732320', class: 'phone' do
+      | + 375 (29) 673-23-20 (Velcom)
+      br
+      | + 375 (33) 655-12-03 (МТС)
     = link_to 'https://goo.gl/maps/vGv2c733FTN2', class: 'map', rel: 'nofollow', target: '_blank' do
       span
         | г. Минск, ст.м. Каменная горка
@@ -58,7 +61,9 @@ footer
             br
             | г. Сморгонь
           a.phone href="tel:+375296732320"
-            | + 375 (29) 673-23-20
+            | + 375 (29) 673-23-20 (Velcom)
+            br
+            | + 375 (33) 655-12-03 (МТС)
           a.mail href="mailto:ludmilacosmetolog@gmail.com"
             | ludmilacosmetolog@gmail.com
     .bottom
