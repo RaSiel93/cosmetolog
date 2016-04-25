@@ -9,5 +9,5 @@ html
     script src="//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js"
     script src='//google-maps-utility-library-v3.googlecode.com/svn/tags/infobox/1.1.9/src/infobox_packed.js' type='text/javascript'
   body
-    = google_analytics(Rails.application.secrets.google_analytics_key)
+    = analytics_init if GoogleAnalytics.valid_tracker?
     = yield
