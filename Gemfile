@@ -13,9 +13,11 @@ gem 'uikit-rails'
 gem 'gmaps4rails'
 gem 'underscore-rails'
 gem 'font-awesome-rails', '~> 4.2.0.0'
+gem 'google-analytics-rails', '1.1.0'
 
 group :development do
   gem 'byebug'
+  gem 'pry'
   gem 'capistrano', '~> 3.1'
   gem 'capistrano-rails', '~> 1.1'
   gem 'web-console', '~> 2.0'
