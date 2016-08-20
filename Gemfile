@@ -19,6 +19,7 @@ group :development do
   gem 'byebug'
   gem 'pry'
   gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rvm'
   gem 'capistrano-rails', '~> 1.1'
   gem 'web-console', '~> 2.0'
   gem 'spring'
