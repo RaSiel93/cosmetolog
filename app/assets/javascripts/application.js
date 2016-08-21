@@ -14,7 +14,3 @@
 //= require jquery_ujs
 //= require uikit
 //= require uikit-components
-//= require underscore
-//= require gmaps/google
-//= require markerclusterer
-//= require_tree .

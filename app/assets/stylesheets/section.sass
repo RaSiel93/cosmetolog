@@ -1,7 +1,7 @@
 @import "constants"
 
 body
-  background-color: #75A6D6
+  background-color: #fff
 
 .row
   margin: 20px
@@ -9,17 +9,17 @@ body
 section
   margin: 856px auto 0
   padding: 40px 0
-  color: #fff
+  color: $font-color
   width: 1000px
   h1
-    color: #fff
+    color: $font-color
     text-align: center
     margin-bottom: 30px
   p
     font-size: 18px
     line-height: 30px
   a
-    color: #fff
+    color: $font-color
     font-weight: bold
     text-decoration: underline
     &:hover
@@ -36,7 +36,8 @@ section
 
 @media all and (max-width: 1000px)
   section
-    width: $width-default
+    width: 100%
+    // width: $width-default
 
 .bold
   font-weight: bold

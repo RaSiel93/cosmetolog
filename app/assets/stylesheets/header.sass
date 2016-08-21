@@ -15,7 +15,7 @@ header
   background-color: $cornflower-color
   .address
     float: right
-    width: $width-default
+    // width: $width-default
     font-family: 'HelveticaNeueCyrlight'
     font-size: 14px
     margin-right: 7%
@@ -80,7 +80,16 @@ header
       font-style: italic
       text-align: right
 
-@media all and (max-width: 1000px)
+
+@media all and (max-width: 900px)
+  header
+    height: 170px
+    .address
+      width: 500px
+      .mail
+        margin-top: 20px
+
+@media all and (max-width: 500px)
   header
     .address
-      margin-right: 0
+      width: 100%
